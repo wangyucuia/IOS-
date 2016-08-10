@@ -15,6 +15,11 @@
 		A04B22571D5AFE63003D4EE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A04B22551D5AFE63003D4EE9 /* LaunchScreen.storyboard */; };
 		A04B22621D5AFE63003D4EE9 /* IOS_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A04B22611D5AFE63003D4EE9 /* IOS_______Tests.m */; };
 		A04B226D1D5AFE63003D4EE9 /* IOS_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A04B226C1D5AFE63003D4EE9 /* IOS_______UITests.m */; };
+		A04B227B1D5AFE7E003D4EE9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04B227A1D5AFE7E003D4EE9 /* CoreGraphics.framework */; };
+		A04B227E1D5AFEAD003D4EE9 /* CaptchaView.m in Sources */ = {isa = PBXBuildFile; fileRef = A04B227D1D5AFEAD003D4EE9 /* CaptchaView.m */; };
+		A04B22821D5B0B99003D4EE9 /* IDVertification.m in Sources */ = {isa = PBXBuildFile; fileRef = A04B22811D5B0B99003D4EE9 /* IDVertification.m */; };
+		A04B22851D5B1002003D4EE9 /* IDLable.m in Sources */ = {isa = PBXBuildFile; fileRef = A04B22841D5B1002003D4EE9 /* IDLable.m */; };
+		A04B22871D5B1EE1003D4EE9 /* dot.png in Resources */ = {isa = PBXBuildFile; fileRef = A04B22861D5B1EE1003D4EE9 /* dot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,14 @@
 		A04B22681D5AFE63003D4EE9 /* IOS生成本地验证码UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOS生成本地验证码UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A04B226C1D5AFE63003D4EE9 /* IOS_______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "IOS_______UITests.m"; sourceTree = "<group>"; };
 		A04B226E1D5AFE64003D4EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A04B227A1D5AFE7E003D4EE9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A04B227C1D5AFEAD003D4EE9 /* CaptchaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptchaView.h; sourceTree = "<group>"; };
+		A04B227D1D5AFEAD003D4EE9 /* CaptchaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptchaView.m; sourceTree = "<group>"; };
+		A04B22801D5B0B99003D4EE9 /* IDVertification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDVertification.h; sourceTree = "<group>"; };
+		A04B22811D5B0B99003D4EE9 /* IDVertification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDVertification.m; sourceTree = "<group>"; };
+		A04B22831D5B1002003D4EE9 /* IDLable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDLable.h; sourceTree = "<group>"; };
+		A04B22841D5B1002003D4EE9 /* IDLable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDLable.m; sourceTree = "<group>"; };
+		A04B22861D5B1EE1003D4EE9 /* dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A04B227B1D5AFE7E003D4EE9 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +95,8 @@
 		A04B223B1D5AFE63003D4EE9 = {
 			isa = PBXGroup;
 			children = (
+				A04B22861D5B1EE1003D4EE9 /* dot.png */,
+				A04B227A1D5AFE7E003D4EE9 /* CoreGraphics.framework */,
 				A04B22461D5AFE63003D4EE9 /* IOS生成本地验证码 */,
 				A04B22601D5AFE63003D4EE9 /* IOS生成本地验证码Tests */,
 				A04B226B1D5AFE63003D4EE9 /* IOS生成本地验证码UITests */,
@@ -105,6 +121,9 @@
 				A04B224B1D5AFE63003D4EE9 /* AppDelegate.m */,
 				A04B224D1D5AFE63003D4EE9 /* ViewController.h */,
 				A04B224E1D5AFE63003D4EE9 /* ViewController.m */,
+				A04B227C1D5AFEAD003D4EE9 /* CaptchaView.h */,
+				A04B227D1D5AFEAD003D4EE9 /* CaptchaView.m */,
+				A04B227F1D5B0B1A003D4EE9 /* 密码的分割 */,
 				A04B22501D5AFE63003D4EE9 /* Main.storyboard */,
 				A04B22531D5AFE63003D4EE9 /* Assets.xcassets */,
 				A04B22551D5AFE63003D4EE9 /* LaunchScreen.storyboard */,
@@ -138,6 +157,17 @@
 				A04B226E1D5AFE64003D4EE9 /* Info.plist */,
 			);
 			path = "IOS生成本地验证码UITests";
+			sourceTree = "<group>";
+		};
+		A04B227F1D5B0B1A003D4EE9 /* 密码的分割 */ = {
+			isa = PBXGroup;
+			children = (
+				A04B22801D5B0B99003D4EE9 /* IDVertification.h */,
+				A04B22811D5B0B99003D4EE9 /* IDVertification.m */,
+				A04B22831D5B1002003D4EE9 /* IDLable.h */,
+				A04B22841D5B1002003D4EE9 /* IDLable.m */,
+			);
+			name = "密码的分割";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A04B22571D5AFE63003D4EE9 /* LaunchScreen.storyboard in Resources */,
+				A04B22871D5B1EE1003D4EE9 /* dot.png in Resources */,
 				A04B22541D5AFE63003D4EE9 /* Assets.xcassets in Resources */,
 				A04B22521D5AFE63003D4EE9 /* Main.storyboard in Resources */,
 			);
@@ -274,8 +305,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A04B224F1D5AFE63003D4EE9 /* ViewController.m in Sources */,
+				A04B22851D5B1002003D4EE9 /* IDLable.m in Sources */,
 				A04B224C1D5AFE63003D4EE9 /* AppDelegate.m in Sources */,
 				A04B22491D5AFE63003D4EE9 /* main.m in Sources */,
+				A04B22821D5B0B99003D4EE9 /* IDVertification.m in Sources */,
+				A04B227E1D5AFEAD003D4EE9 /* CaptchaView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
